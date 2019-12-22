@@ -11,3 +11,6 @@ The various tools used for this project are :
 - [ivy bus](https://github.com/truillet/upssitech/blob/master/SRI/3A/ID/TP/Code/ivy-java-1.2.18.jar)
 
 Every tools furnished by [M. Philippe TRUILLET](https://github.com/truillet), cheers to him.
+
+## L A U N C H I N G  T H I S  D A M N  T H I N G
+Run the launcher.bat file, and then run the sketch located in "ProjetMM" named 'ProjetMM".
