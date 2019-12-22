@@ -12,5 +12,5 @@ The various tools used for this project are :
 
 Every tools furnished by [M. Philippe TRUILLET](https://github.com/truillet), cheers to him.
 
-## L A U N C H I N G  T H I S  D A M N  T H I N G
+## How do I run it ?
 Run the launcher.bat file, and then run the sketch located in "ProjetMM" named 'ProjetMM".
