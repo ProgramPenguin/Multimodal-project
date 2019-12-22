@@ -124,7 +124,7 @@ void setup() {
 void draw() 
 {
     //SI ON A TOUTES LES INFOS ON LANCE LE DESSIN DE LA FORME ET SON STOCKAGE DANS LE TABLEAU (max 20 formes)
-    if(validation)
+    if(validation && !(forme.equals("")))
     {
         
         if(commande.equals("initialiser")|| commande.equals("creer")|| commande.equals("dessiner"))
@@ -136,28 +136,16 @@ void draw()
           if(forme.equals("Carre"))
           {
             temp = new Rectangle(p);
-            //rect(n1,n2,60,60);
             
           }
           if(forme.equals("Cercle"))
           {      
             temp = new Cercle(p);
-            //ellipse(n1,n2,60,60);
              
           }
           if(forme.equals("Triangle"))
           {
-            /*n1 = rand.nextInt(600);
-            n2 = rand.nextInt(600);
-            triangle(n1,n1,n1+50,n1,n1+25,n1-120);
-            old_T1X = n1;
-            old_T1Y = n1;
-            old_T2X = n1 + 50;
-            old_T2Y = n1;
-            old_T3X = n1 + 25;
-            old_T3Y = n1 - 120;*/
-            temp = new Triangle(p);
-            
+            temp = new Triangle(p);          
           }
           
           if(couleur.equals("bleu"))
@@ -193,6 +181,9 @@ void draw()
       }
       validation = false;
       SecurityForme = false;
+      couleur = "";
+      forme = "";
+      n1 = n2 = 0;
       cpt_forme ++;
     }
     
